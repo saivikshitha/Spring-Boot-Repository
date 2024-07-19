@@ -61,7 +61,7 @@ public class UserController {
 		}
 	}
 
-	@PutMapping("/editusers/{id}")
+	@PutMapping("/edituser/{id}")
 	public ResponseEntity<String> updateUser(@PathVariable("id") int id, @RequestBody User user) {
 
 		user.setId(id);
