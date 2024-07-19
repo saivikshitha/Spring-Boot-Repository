@@ -84,7 +84,7 @@ public class UserController {
 			}
 			return new ResponseEntity<>("User was deleted successfully.", HttpStatus.OK);
 		} catch (Exception e) {
-			return new ResponseEntity<>("Cannot delete User.", HttpStatus.INTERNAL_SERVER_ERROR);
+			return new ResponseEntity<>("Cannot delete Userr.", HttpStatus.INTERNAL_SERVER_ERROR);
 		}
 	}
 
